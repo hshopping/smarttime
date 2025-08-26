@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ESP32 Web Flasher - TEST PAGE</title>
+    <meta charset="utf-8">
+</head>
+<body style="font-family: Arial, sans-serif; text-align: center; margin-top: 50px;">
+    
+    <h1>ESP32 펌웨어 설치 (테스트 페이지)</h1>
+    <p>이 페이지가 정상적으로 보인다면 모든 것이 해결된 것입니다.</p>
+
+    <!-- esp-web-tools의 웹 컴포넌트 사용 -->
+    <esp-web-install-button 
+        manifest="https://raw.githubusercontent.com/hshopping/smarttime/main/manifest.json">
+    </esp-web-install-button>
+
+    <!-- ESPTool-JS 웹 컴포넌트 로드 -->
+    <script type="module" src="https://unpkg.com/esp-web-tools@9.4.3/dist/web/install-button.js?module"></script>
+
+</body>
+</html>
