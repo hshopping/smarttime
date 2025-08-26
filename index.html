@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ESP32 Web Flasher (Manifest)</title>
+    <meta charset="utf-8">
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        .container { max-width: 600px; margin: auto; }
+        /* esp-web-install-button의 스타일을 일부 수정할 수 있습니다. */
+        esp-web-install-button { 
+            --esp-web-install-button-fill-color: #4285F4;
+            --esp-web-install-button-text-color: #ffffff;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ESP32 펌웨어 업로더</h1>
+        <p>
+            아래 버튼을 눌러 펌웨어를 설치하세요.<br>
+            ESP32를 부트로더 모드로 설정하고 USB로 연결해야 합니다.
+        </p>
+        
+        <!-- esp-web-tools의 웹 컴포넌트 사용 -->
+        <esp-web-install-button manifest="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/manifest.json">
+        </esp-web-install-button>
+
+    </div>
+
+    <!-- ESPTool-JS 웹 컴포넌트 로드 -->
+    <script type="module" src="https://unpkg.com/esp-web-tools@9.4.3/dist/web/install-button.js?module"></script>
+</body>
+</html>
