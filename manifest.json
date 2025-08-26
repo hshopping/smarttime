@@ -7,15 +7,15 @@
       "parts": [
         {
           "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/bootloader.bin",
-          "offset": 0x1000
+          "offset": 4096
         },
         {
           "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/partitions.bin",
-          "offset": 0x8000
+          "offset": 32768
         },
         {
           "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/firmware.bin",
-          "offset": 0x10000
+          "offset": 65536
         }
       ]
     }
