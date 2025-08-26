@@ -6,15 +6,15 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/bootloader.bin",
+          "path": "https://github.com/hshopping/smarttime/raw/refs/heads/main/bootloader.bin",
           "offset": 4096
         },
         {
-          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/partitions.bin",
+          "path": "https://github.com/hshopping/smarttime/raw/refs/heads/main/partitions.bin",
           "offset": 32768
         },
         {
-          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/firmware.bin",
+          "path": "https://github.com/hshopping/smarttime/raw/refs/heads/main/firmware.bin",
           "offset": 65536
         }
       ]
