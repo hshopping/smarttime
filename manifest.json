@@ -1,0 +1,23 @@
+{
+  "name": "My ESP32 Project",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/bootloader.bin",
+          "offset": 0x1000
+        },
+        {
+          "path": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/partitions.bin",
+          "offset": 0x8000
+        },
+        {
+          "path": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/firmware.bin",
+          "offset": 0x10000
+        }
+      ]
+    }
+  ]
+}
