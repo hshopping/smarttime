@@ -4,6 +4,9 @@
   "builds": [
     {
       "chipFamily": "ESP32",
+      "baud_rate": 921600,
+      "flash_mode": "qio",
+      "flash_freq": "80m",
       "parts": [
         {
           "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/bootloader.bin",
