@@ -17,7 +17,7 @@
           "offset": 32768
         },
         {
-          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/firmware.bin",
+          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/firmware260324.bin",
           "offset": 65536
         }
       ]
