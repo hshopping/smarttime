@@ -1,6 +1,6 @@
 {
   "name": "My ESP32 Project",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "builds": [
     {
       "chipFamily": "ESP32",
@@ -17,7 +17,7 @@
           "offset": 32768
         },
         {
-          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/firmware260324.bin",
+          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/firmware.bin",
           "offset": 65536
         }
       ]
