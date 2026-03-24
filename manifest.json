@@ -1,6 +1,6 @@
 {
   "name": "My ESP32 Project",
-  "version": "26.3.24",
+  "version": "26.3.24.2",
   "builds": [
     {
       "chipFamily": "ESP32",
@@ -9,15 +9,15 @@
       "flash_freq": "80m",
       "parts": [
         {
-          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/bootloader.bin",
+          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/bootloader260324.bin",
           "offset": 4096
         },
         {
-          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/partitions.bin",
+          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/partitions260324.bin",
           "offset": 32768
         },
         {
-          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/firmware.bin",
+          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/firmware260324.bin",
           "offset": 65536
         }
       ]
