@@ -8,17 +8,17 @@
       "flash_mode": "dio",
       "flash_freq": "40m",
       "parts": [
-        {
-          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/boot_app0.bin",
-          "offset": 57344
-        },
-        {
+         {
           "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/bootloader260324_20.bin",
           "offset": 4096
         },
         {
           "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/partitions260324_20.bin",
           "offset": 32768
+        },
+        {
+          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/boot_app0.bin",
+          "offset": 57344
         },
         {
           "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/firmware260324_20.bin",
