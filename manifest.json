@@ -4,7 +4,7 @@
   "builds": [
     {
       "chipFamily": "ESP32",
-      "baud_rate": 921600,
+      "baud_rate": 460800,
       "flash_mode": "dio",
       "flash_freq": "40m",
       "parts": [
