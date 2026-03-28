@@ -9,15 +9,15 @@
       "flash_freq": "40m",
       "parts": [
         {
-          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/bootloader260324_20.bin",
+          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/bootloader_0x1000.bin",
           "offset": 4096
         },
         {
-          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/partitions260324_20.bin",
+          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/partitions_0x8000.bin",
           "offset": 32768
         },
         {
-          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/firmware260324_20.bin",
+          "path": "https://raw.githubusercontent.com/hshopping/smarttime/main/firmware_0x10000.bin",
           "offset": 65536
         }
       ]
