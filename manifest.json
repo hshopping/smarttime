@@ -1,6 +1,6 @@
 {
   "name": "My ESP32 Project",
-  "version": "26.3.28.18",
+  "version": "26.3.28.17",
   "builds": [
     {
       "chipFamily": "ESP32",
